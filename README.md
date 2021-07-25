@@ -1,5 +1,26 @@
 # StableWit - Concept Stablecoin utilising witnet price feed
 
+StableWit utilises witNet eth/usd price oracles to determine collateral requirements for minting stableWit (STW), pegged to 1 USD = 1 STW.
+
+Includes a customisable collateral ratio, initally set to 110%. This may be edited in the future by governance voting.
+
+Also includes:
+2) a function to burn STW to reclaim collateral ETH.
+3) Liquidation function that anyone can call if price of collateral falls below the collateral ratio requirements.
+
+The contracts have been published on Rinkeby Testnet, for the EthCC Hackathon:
+
+
+
+
+
+
+
+
+
+
+# witnet
+
 Witnet repository containing:
 - Automatic generation of data feed Solidity contracts, based on [`witnet-request-js`](https://github.com/witnet/witnet-requests-js).
 - Importing Witnet Bridge Smart Contracts official addresses, available in multiple testnets and mainnet.
