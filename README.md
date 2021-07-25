@@ -1,4 +1,4 @@
-# witnet-price-feed-examples
+# StableWit - Concept Stablecoin utilising witnet price feed
 
 Witnet repository containing:
 - Automatic generation of data feed Solidity contracts, based on [`witnet-request-js`](https://github.com/witnet/witnet-requests-js).
