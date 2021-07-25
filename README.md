@@ -8,7 +8,7 @@ Also includes:
 2) a function to burn STW to reclaim collateral ETH.
 3) Liquidation function that anyone can call if price of collateral falls below the collateral ratio requirements.
 
-The contracts have been published on Rinkeby Testnet, for the EthCC Hackathon:
+The contracts have been published on Rinkeby Testnet, for the EthCC Hackathon.
 
 
 
